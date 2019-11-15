@@ -36,7 +36,7 @@ The ESP32 has 6 différent states :
 - Modem sleep mode : 3~20mA
 - Light sleep mode : 0.8mA
 - Deep sleep mode : 10µA
-- Hibernation mode : 2.5µA
+- Hibernation mode : 2.5µA\
 Source : https://lastminuteengineers.com/esp32-sleep-modes-power-consumption/
 
 Here we will use the active and deep sleep modes in order to save as much power as possible, but you are free to use other modes, or even active mode only if your device is plugged on a permanent power supply.
