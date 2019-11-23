@@ -27,7 +27,7 @@ This project is mainly based on the IFTTT website, specially designed to provide
   - Create your account on https://ifttt.com
   - Subscribe to the Messenger Service via My Applets>Search: and link your Messenger account
   - Subscribe to the Webhooks service My Applets>Search:
-  - Create your Applet via Create and link the two previous sevices between them. You can setup different triggers and even some extra values to be sent when a trigger occurs (for example some extra sensors linked to your ESP32).
+  - Create your Applet via Create and link the two previous sevices between them. Make sure to give the same rising event names between your webhook service and your applet.
 
 ## Power consumption
 
@@ -39,5 +39,5 @@ The ESP32 has 6 différent states :
 - Hibernation mode : 2.5µA\
 Source : https://lastminuteengineers.com/esp32-sleep-modes-power-consumption/
 
-Here we will use the active and deep sleep modes in order to save as much power as possible, but you are free to use other modes, or even active mode only if your device is plugged on a permanent power supply.
+Here we will use the active and deep sleep modes in order to save as much power as possible, which can theoretically reach an average 7 month lifetime with the hardware I advised to use. After that, the battery will have to be recharged.
 
